@@ -1,0 +1,1 @@
+## Реализуйте разметку, визуально соответствующую сайту - [link](https://www.yaklass.ru/p/himija/8-klass/klassy-neorganicheskikh-veshchestv-14371/kisloty-sostav-svoistva-poluchenie-13840/re-5fe1132a-4632-464c-bf72-f415942422d9), игнорируя изображения. Пункты 1 - 4.
