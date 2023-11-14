@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 6</title>
+    <style>
+      table,
+      tr,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        width: 100px;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th rowspan="2">Кухня</th>
+        <th colspan="2">Холодные блюда</th>
+        <th colspan="2">Горяие блюда</th>
+        <th rowspan="2">Десерты</th>
+      </tr>
+      <tr>
+        <th>Салаты</th>
+        <th>Закуски</th>
+        <th>Первые блюда</th>
+        <th>Вторые блюда</th>
+      </tr>
+      <tr>
+        <th rowspan="3">Русская</th>
+        <td>Винегрет</td>
+        <td>Язык с хреном</td>
+        <td>Щи с квашенной капустой</td>
+        <td>Варенники с картошкой</td>
+        <td>Печеные яблоки с медом</td>
+      </tr>
+      <tr>
+        <td>Оливье</td>
+        <td>Студень говяжий</td>
+        <td>Рассольник домашний</td>
+        <td>Караси запеченые в сметане</td>
+        <td>Блинчатый пирог</td>
+      </tr>
+      <tr>
+        <td>Сельдь под "шубой"</td>
+        <td>Судак заливной</td>
+        <td>Мясная солянка</td>
+        <td>Котлеты "Пожарские"</td>
+        <td>Пирожное "Картошка"</td>
+      </tr>
+    </table>
+    <picture>
+      <source media="(min-width: 1440px)" srcset="../../static/red.jpg" />
+      <source media="(min-width: 1280px)" srcset="../../static/blue.jpg" />
+      <source media="(min-width: 800px)" srcset="../../static/green.jpg" />
+      <source media="(min-width: 600px)" srcset="../../static/red.jpg" />
+      <source media="(min-width: 400px)" srcset="../../static/blue.jpg" />
+      <img src="../../static/L04-favicon.png" alt="img" />
+    </picture>
+  </body>
+</html>
