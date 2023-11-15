@@ -1,15 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tables, Lists, Images</title>
+    <style>
+        ol {
+            list-style: none;
+            counter-reset: li;
+        }
+        li:before {
+            counter-increment: li;
+            content: counters(li, ".") ". ";
+        }
+    </style>
 </head>
+
 <body>
     <header>
         <a href="../index.html">back</a>
     </header>
-    <main></main>
-    <footer></footer>    
+    <main>
+        <!-- <table>
+            <thead></thead>
+            <tbody></tbody>
+            <tfoot></tfoot>
+            <colgroup>
+                <col >
+                <col >
+                <col >
+                <col span="2" style="background-color: lightgrey;" >
+            </colgroup>
+            <tr>
+                <th rowspan="2">human</th>
+                <td colspan="2">7000000</td>
+                <td>40000</td>
+            </tr>
+            <tr>
+                <td>700000</td>
+                <td>400000</td>
+            </tr>
+            <tr>
+                <th>monkeys</th>
+                <td>700000</td>
+                <td>400000</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th rowspan="2">Гайки</th>
+                <td>&empty;5</td>
+                <td>&empty;7</td>
+            </tr>
+            <tr>
+                <td>&empty;9</td>
+                <td>&empty;11</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Саморезы</th>
+                <td>&otimes;5</td>
+                <td>&otimes;10</td>
+            </tr>
+            <tr>
+                <td>&otimes;16</td>
+                <td>&otimes;20</td>
+            </tr>
+        </table>
+        <article>
+            <div>
+                <h4></h4>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+            <div>
+                <h4></h4>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+        </article> -->
+        <!-- <section>
+            <h2>Lists</h2>
+            <ul>
+                <li>qw</li>
+                <li>er</li>
+                <li>rt</li>
+                <li>ty</li>
+                <li>yu</li>
+            </ul>
+            <ol type="1">
+                <li>qw
+                    <ol>
+                        <li>qq</li>
+                        <li>qa</li>
+                        <li>qz</li>
+                    </ol>
+                </li>
+                <li>er</li>
+                <li>rt</li>
+                <li>ty</li>
+                <li>yu</li>
+            </ol>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Hyper Text Markup language</dd>
+                <dt>CSS</dt>
+                <dd>Cascading Style Sheets</dd>
+            </dl>
+        </section> -->
+        <section>
+            <h2>Images</h2>
+            <figure>
+                <img 
+                src="https://www.1zoom.me/big2/560/276681-werecat.jpg" 
+                alt="image"
+                title="nature"
+                width="400px"        
+                >
+                <figcaption>Beautifull nature</figcaption>
+            </figure>
+            
+            <picture>
+                <!-- min-width если ширина экрана больше чем -->
+                <!-- max-width если ширина экрана меньше чем -->
+                <!-- orentation: portrait | landscape -->
+                <source media="(min-width: 800px)" srcset="../static/red.jpg">
+                <source media="(min-width: 600px)" srcset="../static/blue.jpg">
+                <img src="../static/green.jpg" alt="green" width="500px">
+            </picture>
+        </section>
+        <section>
+            <h2>Arseny</h2>
+            <picture>
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="
+                    https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2010-kodiak-bear-1.jpg/1200px-2010-kodiak-bear-1.jpg
+                  "
+                />
+                <source
+                  media="(min-width: 800px)"
+                  srcset="
+                    https://i.natgeofe.com/k/6289c775-a06c-426a-badb-8d181a55237b/raccoon-grass.jpg?w=1084.125&h=609
+                  "
+                />
+                <source
+                  media="(min-width: 600px)"
+                  srcset="https://a-z-animals.com/media/hare-1.jpg"
+                />
+                <img
+                  src="https://media.cnn.com/api/v1/images/stellar/prod/230911091325-05-invasive-red-fire-ant-europe-italy-ant-macro.jpg?c=16x9&q=h_720,w_1280,c_fill"
+                  alt="ant"
+                  width="400px"
+                />
+              </picture>
+        </section>
+        <section>
+            <h2>Rosalya</h2>
+            <picture>
+                <source media="(min-width: 1440px)" srcset="https://rosspectr.ru/wp-content/uploads/5/4/9/549945f9328d395a852f13b6f9d8db87.jpeg">
+                <source media="(min-width: 800px)" srcset="https://fanibani.ru/wp-content/uploads/2022/12/dreams-onbog-02239.jpg">
+                <source media="(min-width: 600px)" srcset="http://st.gde-fon.com/wallpapers_original/624274_zayats_trava_vzglyad_2998x1991_www.Gde-Fon.com.jpg">
+                <img src="https://severdv.ru/wp-content/uploads/2019/11/muravej-sadovyj.jpg" alt="Муравей" width="400px">
+            </picture>
+        </section>
+        <section>
+            <h2>Nadezhda</h2>
+            <picture>
+                <source media="(min-width:1440px)" srcset="https://i.artfile.me/wallpaper/08-05-2018/5184x3456/zhivotnye-medvedi-rychit-hischnik-medved-1338430.jpg">
+                <source media="(min-width:800px)" srcset="https://kartinki.pics/uploads/posts/2022-02/1645425571_54-kartinkin-net-p-kartinki-yenota-63.jpg">
+                <source media="(min-width:600px)" srcset="https://pichold.ru/wp-content/uploads/2019/04/s1200-1-6.jpg">
+                <img src="https://animals.pibig.info/uploads/posts/2023-03/1680263246_animals-pibig-info-p-krilatie-muravi-zhivotnie-pinterest-64.jpg" width="400px">
+            </picture>
+        </section>
+    </main>
+    <footer></footer>
 </body>
+
 </html>
