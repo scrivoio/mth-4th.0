@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>L07-form</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>USER DATA</legend>
+        <label>
+          <span>Name</span>
+          <input type="text" placeholder="Ivan" />
+        </label>
+        <br />
+        <label>
+          <span>Email</span>
+          <input type="email" placeholder="example@mail.com" />
+        </label>
+        <br />
+        <label>
+          <span>Password</span>
+          <input type="password" placeholder="********" />
+        </label>
+        <br />
+        <label>
+          <span>remember me</span>
+          <input type="checkbox" />
+        </label>
+        <fieldset>
+          <legend>GENDER</legend>
+          <label>
+            <span>male</span>
+            <input type="radio" name="gender" value="male" />
+          </label>
+          <br />
+          <label>
+            <span>female</span>
+            <input type="radio" name="gender" value="female" />
+          </label>
+          <br />
+          <label>
+            <span>other</span>
+            <input type="radio" name="gender" value="other" />
+          </label>
+        </fieldset>
+        <label>
+          <span>Age</span>
+          <input type="number" />
+        </label>
+        <br />
+        <button type="reset">RESET</button>
+        <button type="submit">SEND FORM</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
