@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="keywords" content="html, dom, meta tags, html structure">
+    <meta name="description" content="Learning HTML for sites development">
+    <meta name="author" content="Rosalia">
+    <meta name="copyright" content="https://github.com/Rozali33">
+    <link rel="icon" href="../../static/L04-favicon.png">
+    <title>L07-form</title>
+    <style>
+        .fieldset1 {
+            width: 800px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset class="fieldset1">
+            <legend>USER DATA</legend>
+            <label>
+                <span>Name</span>
+                <input type="text" placeholder="Ivan" required>
+            </label>
+            <br>
+            <label>
+                <span>Email</span>
+                <input type="text" placeholder="example@gmail.com" required>
+            </label>
+            <br>
+            <label>
+                <span>Password</span>
+                <input type="password" placeholder="*********" required>
+            </label>
+            <br>
+            <label>
+                <span>remember me</span>
+                 <input type="checkbox">
+             </label>
+        <fieldset>
+            <legend>GENDER</legend>
+            <label>
+                <span>male</span>
+                <input type="radio" name="getInfo">
+            </label>
+            <br>
+            <label>
+                <span>female</span>
+                <input type="radio" name="getInfo">
+            </label>
+            <br>
+            <label>
+                <span>other</span>
+                <input type="radio" name="getInfo">
+            </label>
+        </fieldset>
+        <label>
+            <span>Age</span>
+            <input type="number" name="age" maxlength="2" required>
+        </label>
+        <br>
+        <button type="reset">RESET</button>
+        <button type="submit">SEND FORM</button>
+        </fieldset>
+    </form>
+</body>
+</html>

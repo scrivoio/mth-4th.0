@@ -1,0 +1,40 @@
+div > p {
+    font-size: 20px;
+}
+
+h2 + div {
+    background-color: yellow;
+}
+
+p ~ span {
+    font-weight: 900;
+}
+
+h2 + div > p ~ p {
+    color: black !important;
+    font-style: normal !important;
+}
+
+h2 + div > p  {
+    color: red;
+    font-style: italic;
+}
+
+h2 + div + div > p ~ p {
+    color: black !important;
+    font-style: normal !important;
+}
+
+h2 + div + div > p {
+    color: red;
+    font-style: italic;
+}
+
+h2 + span {
+    font-style: italic;
+}
+
+#my_p + p {
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">back</a>
+    </header>
+    <main>
+        <form autocomplete="on">
+            <fieldset>
+                <legend>Ваши контакты</legend>
+                <label for="email">EMail</label>
+                <input type="email" id="email" name="email">
+                <hr>
+                <label>
+                    <span>Phone</span>
+                    <input type="tel" name="tel">
+                </label>
+                <hr>
+                <label>
+                    <span>Pass</span>
+                    <input type="password">
+                </label>
+                <hr>
+                <label>
+                    <span>remember me</span>
+                    <input type="checkbox">
+                </label>
+                <hr>
+                <label>
+                    <span>How many?</span>
+                    <label>
+                        <span>1</span>
+                        <input type="radio" name="getInfo">
+                    </label>
+                    <label>
+                        <span>2</span>
+                        <input type="radio" name="getInfo">
+                    </label>
+                    <label>
+                        <span>3</span>
+                        <input type="radio" name="getInfo">
+                    </label>
+                </label>
+                <hr>
+                <select name="choise">
+                    <option value="alice">alice</option>
+                    <option value="bob">bob</option>
+                    <option value="clint">clint</option>
+                </select>
+                <!-- <input type="color">
+                <input type="date"> -->
+    
+                <input type="text" name="name" placeholder="your name" required >
+                <textarea >textarea</textarea>
+                <hr>
+                <button onclick="alert('Hello!')">alert</button>
+                <button onclick="prompt('how are you?', 'normal')">prompt</button>
+                <button onclick="confirm('are you Ok?')">confirm</button>
+            </fieldset>
+            <button type="reset">
+                <a href="">reset</a>
+                <img src="" alt="">
+            </button>
+            <button type="submit">send</button>
+            <!-- <input type="search"> -->
+            <input type="reset" value="put me">
+            <!-- <input type="button" value="put me"> -->
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
