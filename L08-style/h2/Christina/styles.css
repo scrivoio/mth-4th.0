@@ -1,0 +1,34 @@
+div > p {
+    font-size: 20px;
+}
+
+h2 + div {
+    background-color: #ffdd00;
+}
+
+p ~ span {
+    font-weight: 900;
+}
+
+p:first-child {
+    color: #ff0000;
+}
+
+h2 + span {
+    font-style: italic;
+}
+
+h2 ~ div > p:first-child {
+    font-style: italic;
+}
+
+div + div > p {
+    font-style: normal !important;
+}
+
+#my_p ~ p {
+    background-color: black;
+    color: white;
+}
+
+
