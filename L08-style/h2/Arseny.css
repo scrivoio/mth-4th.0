@@ -1,0 +1,25 @@
+div p {
+  font-size: 20px;
+}
+
+h2 + div {
+  background-color: yellow;
+}
+
+p + span {
+  font-weight: 900;
+}
+
+p:first-child {
+  color: red;
+}
+
+h2 + div p:first-child,
+h2 + span {
+  font-style: italic;
+}
+
+#my_p + p {
+  background-color: black;
+  color: white;
+}
