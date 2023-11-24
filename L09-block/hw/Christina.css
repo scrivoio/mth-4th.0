@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: inline-block;
+    border: 5px solid #caccd1;
+    margin: 30px 0 0 30px;
+    padding: 40px 50px;
+    text-align: center;
+    width: 180px;
+    height: 180px;
+}
+
+div:nth-child(7) {
+    position: relative;
+    bottom: 20px;
+    background-color: #0099e5;
+}
+
+div:nth-child(3) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0 !important;
+    background-color: #ff4c4c;
+    z-index: 2;
+}
+
+div:nth-child(5) {
+    position: sticky;
+    top: 0;
+    background-color: #34bf49; 
+    z-index: 1;
+}
