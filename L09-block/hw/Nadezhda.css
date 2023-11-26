@@ -1,0 +1,25 @@
+div {
+    display: inline-block;
+    margin: 15px;
+    box-sizing: border-box;
+    border: 5px solid grey;
+    padding: 40px 50px;
+    width: 180px;
+    height: 180px;
+   }
+
+#block7 {
+    position: relative;
+    bottom: 20px;
+}
+
+#block3 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#block5 {
+    position: sticky;
+    top: 0px;
+}

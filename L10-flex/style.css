@@ -1,0 +1,25 @@
+.flex_container {
+    display: flex;
+    max-width: 700px;
+    height: 500px;
+    background-color: lightgray;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: stretch;
+}
+.flex_element {
+    width: 100px;
+    background-color: lightcoral;
+}
+
+
+
+
+
+
+
+
+
+
+
